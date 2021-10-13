@@ -8,7 +8,8 @@ int module(int a, int n){
     return r;
 }
 
-int Euclid(int a, int b) {
+int Euclid_extended(int a, int b) {
+    int imp_a = a, imp_b = b;
     int cont = 0;
     int temp1 = a;
     int temp2 = b;
@@ -36,10 +37,13 @@ int Euclid(int a, int b) {
             break;
         }
     }
+    cout<<"gcd("<<imp_a<<", "<<imp_b<<"): ";
     return b;
 }
 
 int main() {
-    cout << Euclid(129, 78) << endl;
+    int a = 9;
+    int b = 275;
+    cout << Euclid_extended(a, b) << endl;
     return 0;
 }
