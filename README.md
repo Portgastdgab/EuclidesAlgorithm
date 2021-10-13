@@ -31,8 +31,11 @@ Entonces en las variables:
     VAlor de "y" = v[i]
     
 Ejemplo:
+
   x = Euclid_extended(A, B)
+
   x = Euclid_extended(9, 275)
+   
   Hacer (g0, g1, u0, u1, v0, v1, i) = (B, A, 1, 0, 0, 1, 1)
 
       Reemplazando en el pseudocodigo quedaria:
