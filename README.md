@@ -49,7 +49,7 @@ Ejemplo:
   Entonces x = -61, pues v antes de que g sea 0 es -61, e y = 2, pues u antes de que g sea 0 es 2.
   
   Esto lleva a la ecuación gcd(9, 275) = -61(9) + 2(275)
-                                     1 = 1
+  Respuesta 1 = 1, cumple
   
   ¿Que tan rapido es el algoritmo de Euclides?
   Es muy rapido, por lo general llega a la solucion en muy pocos pasos, por ejemplo encontrar el mcd dentro de un cuerpo de
